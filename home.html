@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Luis Grocery Store</title>
+    <link href="home_style.css" rel="stylesheet" >
+    <link href="foodmenu.html" rel="stylesheet" >
+    
+</head>
+<body onload="display()">
+    <header>
+        <h1>San Luis Grocery Store</h1>
+        <a href="home.html"><img src="logo.jpeg" id="logo" alt="store logo" ></a>
+
+        <nav class="horizontal">       
+            <ul>
+               <li><a href="foodmenu.html">Food Menu</a></li>
+               <li><a href="groceries.html">Groceries</a></li>
+               <li><a href="produce.html">Produce</a></li>
+               <li><a href="meat.html">Meat</a></li>
+               <li><a href="aboutUs.html">About Us</a></li>
+            </ul>
+         </nav>  
+         <img src="StorePic.jpg" id="homePic" alt="store picture"
+            style="width:380px; height:auto; display: block; float: left;" >
+
+    </header>
+    <div id="container">
+        <table class="schedule">
+            <caption>Business Hours</caption>
+            
+          <thead>
+             <tr>
+                <th>Days</th>
+                <th>Open</th>
+                <th>Close</th>
+             </tr>
+          </thead>
+          
+          <tbody>
+             <tr>
+                <th>Monday</th>
+                <td>8:00am</td>
+                <td>7:00pm</td>
+             </tr>
+             <tr>
+                <th>Tuesday</th>
+                <td>8:00am</td>
+                <td>7:00pm</td>
+             </tr>
+             <tr>
+                <th>Wednesday</th>
+                <td>8:00am</td>
+                <td>7:00pm</td>
+             </tr>
+             <tr>
+                <th>Thursday</th>
+                <td>8:00am</td>
+                <td>7:00pm</td>
+             </tr>
+             <tr>
+                <th>Friday</th>
+                <td>8:00am</td>
+                <td>7:00pm</td>
+             </tr>
+             <tr>
+                <th>Saturday</th>
+                <td>8:00am</td>
+                <td>7:00pm</td>
+             </tr>
+             <tr>
+                <th>Sunday</th>
+                <td>8:00am</td>
+                <td>2:00pm</td>
+             </tr>
+             <tfoot>
+               <td colspan="3">*The kitchen closes 1 hour before closing time*</td>
+             </tfoot>
+          </table>
+    </div>
+    <section id="location">
+      <h2>Location</h2>
+      <a href="">1824 52nd St, Kenosha, WI 53140</a>
+      <img src="address.png" id="address" alt="address">
+    </section>
+    <script>
+      function display(){
+         alert("Welcome to San Luis Grocery Store!!!")
+      }
+    </script>
+      
+</body>
+</html>
